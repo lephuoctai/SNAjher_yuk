@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Bóng đỏ -->
+  <item android:left="2dp" android:top="10dp" android:right="2dp" android:bottom="2dp">
+    <shape android:shape="rectangle">
+      <solid android:color="#99999999"/>
+      <gradient android:startColor="@color/red" android:centerColor="@color/white" android:endColor="@color/red"/>
+      <corners android:radius="16dp"/>
+    </shape>
+  </item>
+
+  <!-- Nút chính -->
+  <item>
+    <shape android:shape="rectangle">
+
+      <corners android:radius="8dp"/>
+    </shape>
+  </item>
+</layer-list>

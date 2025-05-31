@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="input_layout_color">
+            <!-- Focused -->
+            <item android:color="@color/blue" android:state_focused="true"/>
+            <!-- Error -->
+            <item android:color="@color/red" android:state_error="true"/>
+            <!-- Default -->
+            <item android:color="@color/gray"/>
+    </color>
+</resources>
