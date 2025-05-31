@@ -26,7 +26,7 @@
 
         <com.google.android.material.circularreveal.cardview.CircularRevealCardView
             android:layout_width="match_parent"
-            android:layout_height="64dp"
+            android:layout_height="60dp"
             app:cardCornerRadius="8dp"
             app:strokeWidth="0dp"
             >
@@ -36,16 +36,18 @@
                 android:background="@color/gray6"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeColor="@color/black"
+                android:paddingBottom="2dp"
 
                 android:hint="Fullname"
                 android:textColorHint="@color/gray3"
                 >
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:paddingStart="16dp"
-
                     android:inputType="textPersonName"
+
+                    android:paddingStart="16dp"
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
         </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
@@ -63,6 +65,7 @@
                         android:background="@color/gray6"
                         app:boxStrokeWidth="0dp"
                         app:boxStrokeColor="@color/black"
+                        android:paddingBottom="2dp"
 
                         android:hint="Email"
                         android:textColorHint="@color/gray3"
@@ -90,6 +93,7 @@
                 android:background="@color/gray6"
                 app:boxStrokeWidth="0dp"
                 app:boxStrokeColor="@color/black"
+                android:paddingBottom="2dp"
                 app:endIconMode="password_toggle"
 
                 android:hint="Password"
